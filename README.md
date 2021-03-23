@@ -3,7 +3,7 @@
 This is a Jam Project, submitted here:
 https://sidremus.itch.io/urghodyssey
 
-Note that for since I don't hold exlusive rights to the music and sound files, I omitted them here.
+Note that for since I don't hold exclusive rights to the music and sound files, I omitted them here.
 
 The overall architecture resembles an Entity Component System (ECS). Working in Unity, this is clearly the easiest structure to follow, as it ties in nicely with the component workflow that's at the heart of Unity.
 
