@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3222015501940887497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3222015501940887499}
+  - component: {fileID: 3222015501940887498}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3222015501940887499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3222015501940887497}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3222015501940887498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3222015501940887497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 534c62f9ec5a7a542b611295546f1efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gearExplosion: {fileID: 8300000, guid: ca217f06fbf4ea94cab1dacb1b895e49, type: 3}
+  gearExplosionVolume: 0.587
+  boss1Screech: {fileID: 8300000, guid: 6f24d004ca163324aa387dc701b933ec, type: 3}
+  boss1ScreechVolume: 1
+  boss1Screech2: {fileID: 8300000, guid: f8f1db569efcbf3468aa1f1c7651e405, type: 3}
+  boss1Screech2Volume: 1
+  shieldOn: {fileID: 8300000, guid: 5d6077cdc6e858a4f8dbc7cd3daf5657, type: 3}
+  shieldOnVolume: 0.689
+  shieldOff: {fileID: 8300000, guid: d685e66696140e642bd4019fdad5155d, type: 3}
+  shieldOffVolume: 0.609
+  lightningAttackCharge: {fileID: 8300000, guid: 94c9741791c48434099c96e8a7a539e2, type: 3}
+  lightningAttackChargeVolume: 1
+  lightningAttackUnCharge: {fileID: 8300000, guid: 374ec6c720da81f4d9ff463e5e91dc19, type: 3}
+  lightningAttackUnChargeVolume: 1
+  playerDeath1: {fileID: 8300000, guid: 5b3feacadc4b9c543a791a27d80819b0, type: 3}
+  playerDeath1Volume: 1
+  playerDeath2: {fileID: 8300000, guid: c4f88be66492a6e4eb2375d0d27405b2, type: 3}
+  playerDeath2Volume: 1
+  gun2: {fileID: 8300000, guid: bedd5a1582b7a184ea1d7c2ea43a3f99, type: 3}
+  gun2Volume: 0.397
+  gun3: {fileID: 8300000, guid: 5d59293f0a348eb43abdf96d235f554f, type: 3}
+  gun3Volume: 0.3
+  playerGunImpact: {fileID: 8300000, guid: cd9852dfb4a79334c9bc532b7453025d, type: 3}
+  playerGunImpactVolume: 0.746
+  musicIntro: {fileID: 8300000, guid: 3e01928259865624591edafda08c14bd, type: 3}
+  musicIntroVolume: 1
+  bossFinalDeath: {fileID: 8300000, guid: a97eb331d6af7924286b29d7a40a1726, type: 3}
+  bossFinalDeathVolume: 1
+  gun1: {fileID: 8300000, guid: 9bd0dbacf8a4b0d4c9c9717f767ea073, type: 3}
+  gun1Volume: 0.304
+  lightningAttack: {fileID: 8300000, guid: f202edff44e2b5047971bdd6b7eb8f55, type: 3}
+  lightningAttackVolume: 0.76
+  shield: {fileID: 8300000, guid: 2a3ddbd9053d89d4fa7c255858c1d22d, type: 3}
+  shieldVolume: 0.485
+  musicMainLoop: {fileID: 8300000, guid: 05fedd1cd70d68a4cb20939a44dcd301, type: 3}
+  musicMainLoopVolume: 1
+  bossDeathLoop: {fileID: 8300000, guid: 9bd0dbacf8a4b0d4c9c9717f767ea073, type: 3}
+  bossDeathLoopVolume: 0.29

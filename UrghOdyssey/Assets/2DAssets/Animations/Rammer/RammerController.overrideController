@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RammerController
+  m_Controller: {fileID: 9100000, guid: f9fca1a915a486f498a2399901014d04, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: de6a16f15395a154c8622568036b02cf, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f6ced6d7fe36119419b2be2a92fec831, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6bdc96120a49f1a49b61b9a5c187deec, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a5066b7b130dc784882a9a08f57260e5, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4aeae961ed3a3054b99e0e2bf02bf6a6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1ebb5b43d7e20424fa1376ed4db124ec, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 294b0660414250246ae39f94f82fcabc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4f7197e992bbe3e40a9502ce3b8af766, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 68a9f18e54bf16e42a3fbc6e09937fd2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a51d63089bdb96a498e11b30db3b6e3b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 937c82346bbcd2f4a8ccaf01348ac1b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 34551d9f84df7464d8f963784d0a0c81, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 6ea918f57147c474c8fc3b812c30dc70, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 01f4976c139a5e94492c31154e153eda, type: 2}
